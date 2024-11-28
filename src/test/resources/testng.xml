@@ -3,7 +3,15 @@
 <suite name="Test Suite for Buildout">
     <test name = "Test Cases for Buildout">
        <classes>          
-            <class name="demo.TestCases"></class>
+            <class name="demo.TestCases">
+                <methods>
+                   <include name = "testCase01" />
+                   <include name = "testCase02" />
+                   <include name = "testCase03" />
+                   <include name = "testCase04" />
+                   <include name = "testCase05" />   
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>
